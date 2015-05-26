@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+.button-collapse {
+  color: #26a69a;
+}
+.btnproj {
+  text-decoration: none;
+  color: #26a69a;
+  display: block;
+  text-align: left;
+  letter-spacing: .5px;
+  padding: 0 15px;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer; }
+
+.projdropdown-content {
+background-color: #283593;
+  margin: 0;
+  display: block;
+  min-width: 100px;
+  max-height: 650px;
+  overflow-y: auto;
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height; }
+  .projdropdown-content li {
+    background-color: #283593;
+    clear: both;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none; }
+
+    .projdropdown-content li:hover, .projdropdown-content li.active {
+      background-color: #eee; }
+    .projdropdown-content li > a, .projdropdown-content li > span {
+      color: #26a69a;
+      display: block;
+      padding: 1rem 1rem; }
+
+html {
+    font-family: 'Raleway', sans-serif;
+  }
+
+h1 {
+  font-weight: 400;
+}
+
+.side-nav {
+color: #1a237e;
+}
+
+
+.navbar-fixed {
+ height: 56px;
+
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #26a69a;
+}
+
+.brand-logo {
+  font-weight: 900;
+}
+
+p {
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+
+.parallax-container {
+  min-height: 320px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 20%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+
+}
+
+  .page-footer.footer-copyright {
+    color: #c5cae9;
