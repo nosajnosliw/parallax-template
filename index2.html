@@ -34,20 +34,33 @@
         <li><a href="#">Contact</a></li>
       </ul>
 
-      <ul id="nav-mobile col s12 m 6" class="side-nav">
-        <li><a href="#">Process</a></li>
-          <ul id="dropdown2" class="projdropdown-content">
-          <li><a href="#!">OUT Magazine</a></li>
-          <li class="divider"></li>
-          <li><a href="#!">AV&C</a></li>
-          <li class="divider"></li>
-          <li><a href="#!">OUT Magazine</a></li>
-          <li class="divider"></li>
-          <li><a href="#!">BROTHER</a></li>
-        </ul>
-        <li><a class="dropdown-button btnproj" href="#" data-activates="dropdown2">Projects</a></li>
-  		  <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+      
+
+      <ul id="nav-mobile" class="side-nav">
+      <li><a href="#">Process</a></li>
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header">Projects</a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="#!">OUT Magazine</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">AV&C</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">OUT Magazine</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">Brother</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  
+  		  
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
@@ -58,12 +71,9 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center indigo-text text-lighten-4" style="font-weight:800"></h1>
-        
         <div class="row center">
-          <h2 class="header col s12 light indigo-text text-darken-3" style="font-weight:900; text-align:center; padding: 50px">INTERACTION DESIGNER</h2>
-
-
+          <h1 class="header col s12 light indigo-text text-darken-4" style="font-weight:800; ">UI UX INTERACTION DESIGN</h1>
+         
         </div>
         <!--<div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -175,7 +185,7 @@
     </div>
     <div class="footer-copyright indigo darken-3">
       <div class="container teal-text text-lighten-3">
-      <p>Made by Jason Wilson &copy; 2015</p>
+      <p>Made by Jason Wilson &copy; 2015. Images courtesy of<a href="http://www.hubblesite.org"> HubbleSite.org.</a></p>
       </div>
     </div>
   </footer>
@@ -185,7 +195,6 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/shrinknav.js"></script>
 
   </body>
 </html>
