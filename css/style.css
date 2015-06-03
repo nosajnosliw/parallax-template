@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+.brand-logo {
+  font-weight: 900;
+}
 
 .button-collapse {
   color: #26a69a;
@@ -53,9 +56,10 @@ background-color: #283593;
       display: block;
       padding: 1rem 1rem; }
 
-#header {
+.header {
   margin-top: 15px;
 }
+
 
 html {
     font-family: 'Raleway', sans-serif;
@@ -68,6 +72,9 @@ h1 {
 
 #nav-mobile {
 background-color: #303f9f;
+}
+ul.side-nav .collapsible-body{
+  background-color: #3949ab;
 }
 
 .navbar-fixed {
@@ -88,14 +95,17 @@ ul.side-nav a{
   color: #26a69a;
 }
 
-.brand-logo {
-  font-weight: 900;
-}
 
 p {
   line-height: 2rem;
   font-weight: 400;
 }
+
+#pagetitle {
+    padding-top: 40px;
+    font-weight: 800;
+    line-height: 150%;
+  }
 
 #parallax {
   min-height: 350px;
@@ -111,6 +121,15 @@ p {
     width: 100%;
   }
 
+  #sociallist li {
+    display:inline;
+    float:left;
+    margin-left:1%;
+    margin-right:2%;
+    margin-bottom:3%;
+    text-align:center
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -119,11 +138,19 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  #pagetitle {
+    padding-top: 40px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  #pagetitle {
+    font-size: 2.5em;
+    padding-top: 0px;
   }
 }
 
