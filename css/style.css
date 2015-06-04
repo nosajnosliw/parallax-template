@@ -154,6 +154,20 @@ p {
   }
 }
 
+@media only screen and (max-width : 400px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #pagetitle {
+    font-size: 2em;
+    padding-top: 0px;
+  }
+
+  .brand-logo {
+    margin-left: 35px;
+  }
+}
 
 .icon-block {
   padding: 0 15px;
