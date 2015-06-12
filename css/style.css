@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.aside {
+  position: relative;
+}
+
 .brand-logo {
   font-weight: 900;
 }
@@ -27,6 +31,9 @@
   transition: .2s ease-out;
   cursor: pointer; }
 
+.container {
+  position: relative;
+}
 .projdropdown-content {
 background-color: #283593;
   margin: 0;
@@ -87,6 +94,15 @@ nav .brand-logo {
   color: #26a69a;
 }
 
+#spynav{
+right:0;
+font-size: 12px;
+position: fixed;
+margin-bottom: 25px;
+top: 80%;
+transform: translateY(-50%);
+}
+
 .side-nav {
 color: #1a237e;
 }
@@ -130,7 +146,7 @@ p {
     text-align:center
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1024px) {
   .parallax-container .section {
     position: absolute;
     top: 20%;
@@ -138,20 +154,53 @@ p {
   #index-banner .section {
     top: 10%;
   }
+
   #pagetitle {
     padding-top: 40px;
   }
+
+  .outpicasset {
+    max-width: 100%;
+    height: auto;
+  }
+  
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 975px) {
+ .parallax-container {
+  min-height: 250px;
+    max-height: 300px;
+  }
+#pagetitle {
+    font-size: 2.5em;
+    padding-top: 0px;
+    line-height: 85%;
+  }
+
+  }
+
+@media only screen and (max-width : 700px) {
   #index-banner .section {
     top: 0;
   }
 
-  #pagetitle {
-    font-size: 2.5em;
-    padding-top: 0px;
+  .parallax-container {
+     min-height: 250px;
+    max-height: 275px;;
   }
+
+  #pagetitle {
+    font-size: 2em;
+    padding-top: 0px;
+    line-height: 70%;
+  }
+
+  .outpicasset {
+    max-width: 75%;
+    height: auto;
+  }
+
+
 }
 
 @media only screen and (max-width : 400px) {
@@ -160,13 +209,25 @@ p {
   }
 
   #pagetitle {
-    font-size: 2em;
+    font-size: 1.9em;
     padding-top: 0px;
+    line-height: 80%;
   }
 
   .brand-logo {
     margin-left: 35px;
   }
+ 
+ .outpicasset {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ .parallax-container {
+    min-height: 185px;
+    max-height: 250px;
+  }
+
 }
 
 .icon-block {
@@ -180,3 +241,4 @@ footer.page-footer {
 
   .page-footer.footer-copyright {
     color: #c5cae9;
+  }

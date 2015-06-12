@@ -24,3 +24,8 @@ $('.dropdown-button').dropdown({
            belowOrigin: true 
            }
       );
+
+
+ $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
