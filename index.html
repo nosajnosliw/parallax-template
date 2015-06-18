@@ -15,76 +15,138 @@
   <div class="navbar-fixed">
   <nav class="indigo darken-4" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">JASONWILSON</a>
+  
+      <a id="logo-container" href="index.html" class="brand-logo">JASONWILSON</a>
       <ul class="right hide-on-med-and-down">
-      	<li><a href="#">Process</a></li>
-        <li><a href="#">Projects</a></li>
-  		  <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+      	<li><a href="#Process">Design Process</a></li>
+        <ul id="dropdown1" class="projdropdown-content">
+          <li><a href="AVC.html">AV&C</a></li>
+              <li class="divider"></li>
+              <li><a href="OUT.html">OUT Magazine</a></li>
+              <li class="divider"></li>
+              <li><a href="BROTHER.html">BROTHER</a></li>
+        </ul>
+        <li><a class="dropdown-button btnproj" href="#" data-activates="dropdown1" constrainwidth="true">Projects</a></li>
+    
+  		  <li><a href="#About">About</a></li>
+        <li><a href="#Connect">Contact</a></li>
       </ul>
 
+      
+
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Process</a></li>
-        <li><a href="#">Projects</a></li>
-  		  <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+      <li><a href="#Process">Design Process</a></li>
+    <li class="no-padding">
+      <ul class="collapsible collapsible-accordion">
+        <li>
+          <a class="collapsible-header">Projects</a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="AVC.html">AV&C</a></li>
+              <li class="divider"></li>
+              <li><a href="OUT.html">OUT Magazine</a></li>
+              <li class="divider"></li>
+              <li><a href="BROTHER.html">BROTHER</a></li>
+             
+            </ul>
+          </div>
+        </li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
+    </li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Connect">Contact</a></li>
+  </ul>
+  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+  </div>
   </nav>
   </div>
+  		  
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center indigo-text text-lighten-4" style="font-weight:800"></h1>
-        
         <div class="row center">
-          <h2 class="header col s12 light indigo-text text-darken-3" style="font-weight:900; text-align:center; padding: 50px">INTERACTION DESIGNER</h2>
-
-
+          <h1 id="pagetitle" class="header col s12 light indigo-text text-darken-4">UI UX INTERACTION DESIGN</h1>
+         
         </div>
-        <!--<div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div> -->
+      
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="nebula1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="assets/nebula.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
 
   <div class="container">
+    <a name="Process"></a>
     <div class="section">
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m12 12">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
-            <h5 class="center">Speeds up development</h5>
+         
+            <h2 class="center brown-text"><i class="mdi-action-search"></i></h2>
+            <h5 class="teal-text text-lighten-1 center">DISCOVERY</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="teal-text text-darken-3 left-align">Understanding exactly what you are building, why you're building it and what will be used to build it is vital for a rudimentary understanding of who your user will be. Android users aren't always iOS users, neither are their respective designers and developers. An experiential real estate sales center UI demands a different set of attention and external API's than a magazine app or e-commerce site. And sometimes your client will be the only user so building something to meet the user goals is totally dependent on making their every wish come true.</p>
+            <p class="teal-text text-darken-3 left-align">I love the discovery phase because its where ideas hit the fan and congeal into something with the potential for either failure or magic. Discovery with a team is even more exciting because you get to share and learn from each others' unique design thinking, backgrounds and raw unbridled creativity.</p>
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m12 l12">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h2 class="center brown-text"><i class="mdi-content-create"></i></h2>
+            <h5 class="teal-text text-lighten-1 center">SKETCH</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="teal-text text-darken-3 left-align">Eve's rib. I like to start sketching right away, even if it's during the meeting, even if its just a logo doodle. In fact Discovery and initial sketch almost go hand in hand. This allows me to start to envision the existence of a final product, and also envision people using and breaking it.</p>
+
+            <p class="teal-text text-darken-3 left-align">I come from a writing background and was always taught to keep a journal always and to write down everything, every idea, every dream. The same applies for design. Here's a little nugget I picked up from the <a href="http://www.thedesigngym.com/tools/" target="_blank">Design Gym</a>, "If you don’t write it down (or draw it) it didn’t happen."</p> 
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m12 l12">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h2 class="center brown-text"><i class="mdi-content-create"></i></h2>
+            <h5 class="teal-text text-lighten-1 center">RESEARCH</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="teal-text text-darken-3 left-align">An extension of the discovery phase is research. I must admit outside of a proper UX role I've yet to do the kind of in depth user observation research that professional research teams engage in but I'm so anxious to jump into this realm. For the time being I spend a lot of time trying to pretend like I'm not staring at people during my train commute while they are frantically swiping and jabbing and playing nose deep in their tablets and phones. One facet that I'm keen on these days is noticing how left handed users use their phones and when and why people use the landscape orientation on their devices.</p>
+
+            <p class="teal-text text-darken-3 left-align">My one man UX team brand of UX research usually consists of rigorous product comparison and reviews, and personal testing of experiences that are similar to those that I am designing. A little bit of qualitative factual context never hurt either.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="mdi-content-create"></i></h2>
+            <h5 class="teal-text text-lighten-1 center">KEEP SKETCHING</h5>
+
+            <p class="teal-text text-darken-3 left-align">Reiteration happens...'nuff said. It's alright to not use a pencil this time, and maybe jump to wireframes. Though a recent school of thought (one that I'm almost in league with) would say <a href ="https://medium.com/@danritz/wireframes-a-good-communication-tool-a-poor-design-tool-1bc64b033962" target="_blank">ditch the frames</a> and head straight to the prototype. A little more fidelity, if time and budget allow, can add more clarity of vision and salience to the design.</p>
+         
+          </div>
+        </div>
+
+        <div class="col s12 m12 l12">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="mdi-hardware-phone-iphone"></i></h2>
+            <h5 class="teal-text text-lighten-1 center">PROTOTYPING</h5>
+
+            <p class="teal-text text-darken-3 left-align">One thing about prototyping is it opens the door to learning new software and programming tools. I'm getting better and better with creating 'pixel perfect' psd's in Photoshop but recently have fallen in love with Sketch. The workflow is much easier and frankly 'pixel perfection' takes a lot of time, and the faster we can complete one iteration, the faster it can be reviewed and tested and reiterated if need be. Prototyping also keeps my coding curiosity rev'ed up. I'm currently working through Angular and Javascript tutorials.</p>
+
+            <p class="teal-text text-darken-3 left-align">Here's where things start to get fun! I'm getting better and better with creating 'pixel perfect' psd's in Photoshop but recently have fallen in love with Sketch. The workflow is much easier and frankly 'pixel perfection' takes a lot of time, and the faster we can complete one iteration, the faster it can be reviewed and tested and reiterated if need be.</p>
+          </div>
+        </div>
+
+         <div class="col s12 m12 l12">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="mdi-action-thumbs-up-down"></i></h2>
+            <h5 class="teal-text text-lighten-1 center">TESTING & FEEDBACK</h5>
+
+            <p class="teal-text text-darken-3 left-align">User testing is yet one avenue of UX design that I'm still getting my feet wet with. At AV&C we don't do a lot of A/B and User Testing as our products aren't typically consumer facing. However, we do get a lot of feedback about functionality and design of our products whether it is the UI layout or the speed of interactivity in an addressable LED wall or the blending and mapping of a projection and its impact on the physical experience. This feedback is critical as ultimately delivering what the client desires is pretty much aligned with delivering a UX that allows the users to meet their goals.</p>
+
+            <p class="teal-text text-darken-3 left-align">Learning and adapting from this feedback surely helps to build the level of empathy for users and in our case helps to navigate client expectations and preempt their anxiety about the complex workflows that are required when building custom interactive and generative software.</p>
           </div>
         </div>
       </div>
@@ -97,21 +159,27 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light indigo-text text-lighten-4"><em>“I believe that children are our future. Unless we stop them now.”</em> ― Homer Simpson</h5>
+          <h5 class="header col s12 light white-text"><em>“I believe that children are our future. Unless we stop them now.”</em> ― Homer Simpson</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="supergiantstar.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="assets/supergiantstar.jpg" alt="Unsplashed background img 2"></div>
   </div>
+  
 
+  <a name="About"></a>
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
+        
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h5 class="teal-text text-lighten-1">I AM NOSAJ</h5>
+          <p class="teal-text text-darken-3 left-align">I was born in a car in Cleveland, OH and have been hacking life ever since. Currently, a resident of Bed-Stuy Brooklyn, I swim like a fish, eat like a bear, and am generally delighted by hard workouts, eggs &amp; sausage, Retail Checkout UI done right, Paleo Goodness, Soundcloud UI updates and good techno/house music.</p> 
+
+          <p class="teal-text text-darken-3 left-align">My natural sense of curiosity, unique sense of humor and problem solving skills allow me to learn and grow from challenges. Empathy also enables me to step outside myself to enhance my understanding of the user, his/her goals, and the processes used to reach them. Thinking with the user's thumbs is a fun way to begin dreaming up other digital human factors, beyond my own. I am always trying to expand my understanding of our collective and individual user goals.</p>
+
+          <p class="teal-text text-darken-3 left-align">Currently reading: <em><a href="http://www.jeffgothelf.com/blog/lean-ux-book/" target="_blank">Lean UX</a>, Lilith's Brood & About Face 3</em>.</p>
         </div>
       </div>
 
@@ -123,39 +191,45 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light indigo-text text-darken-4"><em>"Life is nothing if you're not obsessed.”</em> ― John Waters</h5>
+          <h5 class="header col s12 light white-text"><em>"Life is nothing if you're not obsessed.”</em> ― John Waters</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="greengalaxy.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="assets/greengalaxy.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer indigo darken-4">
+  <footer class="page-footer white">
+  <a name="Connect"></a>
     <div class="container">
       <div class="row">
-        <div class="col l8 s12">
-          <h5 class="teal-text text-lighten-1">Bio</h5>
-          <p class="grey-text text-lighten-4">I was born in a car in Cleveland, OH and have been hacking life ever since. Currently a resident of Bed-Stuy, Brooklyn I swim like a fish, eat like a bear, and am generally delighted by UX Meetups, Paleo Goodness, Fake Facebook News Healines, Soundcloud UI updates and dancefloors. Currently reading: <em><a href="http://www.jeffgothelf.com/blog/lean-ux-book/">Lean UX</a>, Lilith's Brood & About Face 3</em>.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-        </div>
-        <div class="col l2 offset-l2 s12">
+        <div class="col l12 s12">
           <h5 class="teal-text text-lighten-1">Connect</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-4" href="https://www.linkedin.com/in/nosajnosliw">LinkedIn</a></li>
-            <li><a class="white-text" href="https://github.com/nosajnosliw">GitHub</a></li>
-            <li><a class="white-text" href="https://twitter.com/monsieurclaw">Twitter</a></li>
-            <li><a class="white-text" href="https://instagram.com/nosajnosliw/">Instagram</a></li>
-            <li><a class="white-text" href="https://soundcloud.com/mr-cl-w">Soundcloud</a></li>
+          <p class="teal-text text-darken-3">
+          Drop me a line at<a href="mailto:nosajnosliw@gmail.com?subject=Hey Nosaj!" target="_blank"> nosajnosliw@gmail.com</a>. Or follow me!!</p> 
+
+          <ul id="sociallist">
+            <li style="margin-left:0"><a href="https://www.linkedin.com/in/nosajnosliw" target="_blank"><img src="assets/linkedinlogo.png"> </a></li>
+            <li><a  href="https://instagram.com/nosajnosliw/" target="_blank"><img src="assets/instagramlogo.png"></a></li>
+             <li><a  href="https://soundcloud.com/mr-cl-w" target="_blank"><img src="assets/soundcloudlogo.png" target="_blank"></a></li>
+            <li><a  href="https://twitter.com/monsieurclaw" target="_blank"><img src=" assets/twitterlogo3.png"></a></li>
+            <li><a href="https://github.com/nosajnosliw" target="_blank"></a><img src="assets/githublogo.png"></li>
           </ul>
-        </div>
+    </div>
+        
+        <!--<div class="col l2 offset-l2 s12">
+          <ul id="sociallist">
+            <li><a href="https://www.linkedin.com/in/nosajnosliw"><img src="linkedinlogo.png"> </a></li>
+            <li><a href="https://github.com/nosajnosliw"></a><img src="githublogo.png"></li>
+            <li><a  href="https://twitter.com/monsieurclaw"><img src=" twitterlogo3.png"></a></li>
+            <li><a  href="https://instagram.com/nosajnosliw/"><img src="instagramlogo.png"></a></li>
+            <li><img src=" "><a  href="https://soundcloud.com/mr-cl-w"></a></li>
+          </ul>
+        </div>-->
       </div>
     </div>
-    <div class="footer-copyright indigo darken-3">
+    <div class="footer-copyright indigo darken-2">
       <div class="container teal-text text-lighten-3">
-      <p>Made by Jason Wilson &copy; 2015</p>
+      <p>Made by Jason Wilson &copy; 2015. Images courtesy of<a href="http://www.hubblesite.org" target="_blank"> HubbleSite.org.</a></p>
       </div>
     </div>
   </footer>
@@ -165,7 +239,6 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/shrinknav.js"></script>
 
   </body>
 </html>

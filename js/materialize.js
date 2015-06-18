@@ -355,7 +355,7 @@ jQuery.extend( jQuery.easing,
       hover: true,
       alignment: 'left',
       gutter: 0, // Spacing from edge
-      belowOrigin: true
+      belowOrigin: false
     }
 
     options = $.extend(defaults, options);
