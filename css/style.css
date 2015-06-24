@@ -6,6 +6,26 @@
  * Made By MaterializeCSS.com
  */
 
+ /* --------------------------
+  EYESEEYOU STYLES
+----------------------------- */
+#map_canvas { 
+  height: 100%;
+  width: 75%;
+  position: relative;
+  padding:0;
+  margin:50px auto 0 auto;
+
+  
+}
+
+#eyebody
+ {
+  background-size: 100%;
+  background-color: #000;
+ }
+
+
 .aside {
   position: relative;
 }
@@ -191,7 +211,7 @@ p {
   #pagetitle {
     font-size: 2em;
     padding-top: 0px;
-    line-height: 70%;
+    line-height: 84%;
   }
 
   .outpicasset {
@@ -210,7 +230,7 @@ p {
   #pagetitle {
     font-size: 1.9em;
     padding-top: 0px;
-    line-height: 80%;
+    line-height: 84%;
   }
 
   .brand-logo {
