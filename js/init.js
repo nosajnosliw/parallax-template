@@ -1,3 +1,8 @@
+
+$(document).ready(function(){
+      $('.parallax').parallax();
+    });
+
 (function($){
   $(function(){
 
@@ -5,7 +10,7 @@
 
     }
     );
-    $('.parallax').parallax();
+    //$('.parallax').parallax();
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
@@ -14,6 +19,7 @@
   //$(".button-collapse").sideNav();
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)
   $('.collapsible').collapsible();
+
 
 $('.dropdown-button').dropdown({
            inDuration: 300,
